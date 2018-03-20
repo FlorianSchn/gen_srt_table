@@ -4,15 +4,19 @@ This program generates tables for SRT division.
 ## Build
 ### using cmake
 execute
+
     cmake .
     make
+
 in the respective directory
 ### using gcc
 execute
+
     g++ -Wall -Wextra -Werror -std=c++1z -o gen_srt_table -O2 src/main.cpp
 
 ## Use
 executing `gen_srt_table -h` shows how to use the program
+
     usage: ./gen_srt_table [arguments]
 
       -h  or --help                     print this help, other arguments are discarded
